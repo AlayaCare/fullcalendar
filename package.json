@@ -1,5 +1,5 @@
 {
-  "name": "fullcalendar",
+  "name": "@alayacare/fullcalendar",
   "title": "FullCalendar",
   "description": "Full-sized drag & drop event calendar",
   "keywords": [
@@ -97,5 +97,8 @@
     "dist": "gulp dist",
     "lint": "gulp lint-and-example-repos",
     "test": "gulp test:single"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.alayacare.net/repository/npm-alayacare/"
   }
 }
