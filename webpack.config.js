@@ -41,9 +41,9 @@ module.exports = {
 
     // plugins reference the root 'fullcalendar' namespace
     fullcalendar: {
-      commonjs: 'fullcalendar',
-      commonjs2: 'fullcalendar',
-      amd: 'fullcalendar',
+      commonjs: '@alayacare/fullcalendar',
+      commonjs2: '@alayacare/fullcalendar',
+      amd: '@alayacare/fullcalendar',
       root: 'FullCalendar'
     }
   },

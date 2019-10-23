@@ -96,7 +96,8 @@
     "clean": "gulp clean",
     "dist": "gulp dist",
     "lint": "gulp lint-and-example-repos",
-    "test": "gulp test:single"
+    "test": "gulp test:single",
+    "build": "npm run clean && npm run dist"
   },
   "publishConfig": {
     "registry": "https://nexus.alayacare.net/repository/npm-alayacare/"

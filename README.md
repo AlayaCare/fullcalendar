@@ -6,7 +6,7 @@ The base branch we use is v3.10, you should never use master because otherwise y
 ## Publish
 If you need to make any changes, heres how you do it:
 
-1. build: `npm run clean && npm run dist`
+1. build: `npm run build`
 2. login to publish `npm login --registry https://nexus.alayacare.net/repository/npm-alayacare/`
 3. publish `npm publish`
 
